@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(39, 37, 37);
+}
+.main_container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.middle_container{
+    width: 420px;
+    height: 260px;
+    border: 3px solid rgb(146, 144, 144);
+    padding: 15px;
+    background-color: lightgrey;
+    border-radius: 5px;
+}
+
+.age_container{
+    display: flex;
+    margin: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    align-items: center;
+    margin-bottom: 10px;
+
+}
+
+.age_container input{
+    padding: 5px;
+    margin-left:50px ;
+    margin-right: 10px;
+
+}
+
+.gender_container{
+    display: flex;
+    margin: 5px;
+    margin-bottom: 10px;
+    font-size: 19px;
+    font-weight: bold;
+    align-items: center;
+}
+.gender_container label{
+    margin-right: 22px;
+}
+.gender_container select{
+    padding: 6px;
+}
+.height_container{
+    display: flex;
+    margin: 5px;
+    margin-bottom: 10px;
+    font-size: 19px;
+    font-weight: bold;
+    align-items: center;
+    position: relative;
+}
+.height_container input{
+    margin-left: 27px;
+    padding: 5px;
+    width: 100%;    
+}
+.height_container input::placeholder{
+    text-align: right;
+    font-size: bold;
+    font-size: 15px;
+}
+.weight_container{
+    display: flex;
+    margin: 5px;
+    margin-bottom: 20px;
+    font-size: 19px;
+    font-weight: bold;
+    align-items: center;
+    position: relative;
+}
+.weight_container input{
+    margin-left: 24px;
+    padding: 5px;
+    width: 100%;
+}
+.weight_container input::placeholder{
+    text-align: right;
+    font-size: bold;
+    font-size: 15px;
+}
+
+.calculate_container{
+    margin: 0 80px;
+}
+.calculate_container .calculate{
+    padding: 10px 30px;
+    font-weight: 600;
+    font-size: 18px;
+    color: White;
+    background-color: green;
+    border-color: green;  
+}
+.calculate_container .clear{
+    padding: 10px ;
+    font-weight: 600;
+    font-size: 18px;
+    border-color: grey;
+    background-color: grey;
+    color: white;
+}
+.output{
+    margin-left: 100px;
+    font-size: 22px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+span{
+    color: red;
+    font-size: 28px;
+
+}
+
+sup{
+    font-size: 18px;
+}
+.result{
+    width: 400px;
+    padding: 5px;
+    background-color: green;
+    color: white;padding-left: 10px;
+}
+.cm{
+    position: absolute;
+    top: 3px;
+   right: 10px;
+   color:   grey;
+   font-weight: 500;
+   font-size: 20px;
+}
+.firstnan{
+    position: absolute;
+    top: -22px;
+    right: -100px;
+    color: red;
+    display: none;
+
+}
+.nan{
+    position: absolute;
+    top: 25px;
+    right: -100px;
+    color: red;
+    display: none;
+}
